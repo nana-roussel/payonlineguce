@@ -1,0 +1,19 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+suite du test connexion avec le compte admin,Chrome 91.0.4472.124,,,2021-07-11 00:16:19,2021-07-11 00:16:55,"35,944s",PASSED
+,,,,,,,
+Test Cases/connexion avec le compte admin,Chrome 91.0.4472.124,,,2021-07-11 00:16:21,2021-07-11 00:16:55,"34,365s",PASSED
+"openBrowser("""")",Chrome 91.0.4472.124,,,2021-07-11 00:16:24,2021-07-11 00:16:34,"10,252s",PASSED
+"navigateToUrl(""https://testepayment.guichetunique.cm/PayOnlineGuce/"")",Chrome 91.0.4472.124,,,2021-07-11 00:16:34,2021-07-11 00:16:36,"1,684s",PASSED
+"click(findTestObject(""Object Repository/Page_Bienvenue sur PayOnlineGuce/img""))",Chrome 91.0.4472.124,,,2021-07-11 00:16:36,2021-07-11 00:16:38,"2,417s",PASSED
+"setText(findTestObject(""Object Repository/Page_page de connexion/input_concat(Nom d, , utilisateur)_ConnForm_f30c5b""), ""admin"")",Chrome 91.0.4472.124,,,2021-07-11 00:16:38,2021-07-11 00:16:40,"1,542s",PASSED
+"setEncryptedText(findTestObject(""Object Repository/Page_page de connexion/input_Mot de passe_ConnFormpasswordfield""), ""RAIVpflpDOg="")",Chrome 91.0.4472.124,,,2021-07-11 00:16:40,2021-07-11 00:16:41,"1,148s",PASSED
+"click(findTestObject(""Object Repository/Page_page de connexion/span_Se connecter""))",Chrome 91.0.4472.124,,,2021-07-11 00:16:41,2021-07-11 00:16:43,"1,832s",PASSED
+"click(findTestObject(""Object Repository/Page_Administration/span_Gestion dossier  payer""))",Chrome 91.0.4472.124,,,2021-07-11 00:16:43,2021-07-11 00:16:44,"1,298s",PASSED
+"click(findTestObject(""Object Repository/Page_Administration/span_Journal contre ecriture""))",Chrome 91.0.4472.124,,,2021-07-11 00:16:44,2021-07-11 00:16:45,"1,340s",PASSED
+"click(findTestObject(""Object Repository/Page_Administration/a_Grer inscription""))",Chrome 91.0.4472.124,,,2021-07-11 00:16:45,2021-07-11 00:16:47,"1,712s",PASSED
+"click(findTestObject(""Object Repository/Page_Administration/span_Tableau de bord""))",Chrome 91.0.4472.124,,,2021-07-11 00:16:47,2021-07-11 00:16:48,"1,414s",PASSED
+"click(findTestObject(""Object Repository/Page_Administration/span_Comptes verrouills""))",Chrome 91.0.4472.124,,,2021-07-11 00:16:48,2021-07-11 00:16:50,"1,233s",PASSED
+"click(findTestObject(""Object Repository/Page_Administration/a_xxxx CS URGENCE YAOUNDE 1_deconnexionFormj_idt26""))",Chrome 91.0.4472.124,,,2021-07-11 00:16:50,2021-07-11 00:16:51,"1,055s",PASSED
+"click(findTestObject(""Object Repository/Page_page de connexion/span_Rinitialiser""))",Chrome 91.0.4472.124,,,2021-07-11 00:16:51,2021-07-11 00:16:52,"1,175s",PASSED
+"click(findTestObject(""Object Repository/Page_page de connexion/a_Accueil""))",Chrome 91.0.4472.124,,,2021-07-11 00:16:52,2021-07-11 00:16:54,"1,905s",PASSED
+closeBrowser(),Chrome 91.0.4472.124,,,2021-07-11 00:16:54,2021-07-11 00:16:55,"1,203s",PASSED

@@ -1,0 +1,11 @@
+Suite/Test/Step Name,Browser,Description,Tag,Start time,End time,Duration,Status
+suite du test de fonctionnement,Chrome 91.0.4472.124,,,2021-07-10 23:56:37,2021-07-10 23:57:00,"23,604s",PASSED
+,,,,,,,
+Test Cases/test de fonctionnement,Chrome 91.0.4472.124,,,2021-07-10 23:56:38,2021-07-10 23:57:00,"22,057s",PASSED
+"openBrowser("""")",Chrome 91.0.4472.124,,,2021-07-10 23:56:41,2021-07-10 23:56:52,"10,027s",PASSED
+"navigateToUrl(""https://testepayment.guichetunique.cm/PayOnlineGuce/"")",Chrome 91.0.4472.124,,,2021-07-10 23:56:52,2021-07-10 23:56:53,"1,342s",PASSED
+"click(findTestObject(""Object Repository/Page_Bienvenue sur PayOnlineGuce/img""))",Chrome 91.0.4472.124,,,2021-07-10 23:56:53,2021-07-10 23:56:55,"2,599s",PASSED
+"click(findTestObject(""Object Repository/Page_page de connexion/a_English""))",Chrome 91.0.4472.124,,,2021-07-10 23:56:55,2021-07-10 23:56:57,"1,328s",PASSED
+"click(findTestObject(""Object Repository/Page_page de connexion/a_Franais""))",Chrome 91.0.4472.124,,,2021-07-10 23:56:57,2021-07-10 23:56:58,"1,130s",PASSED
+"click(findTestObject(""Object Repository/Page_page de connexion/a_Accueil""))",Chrome 91.0.4472.124,,,2021-07-10 23:56:58,2021-07-10 23:56:59,"1,226s",PASSED
+closeBrowser(),Chrome 91.0.4472.124,,,2021-07-10 23:56:59,2021-07-10 23:57:00,"1,298s",PASSED

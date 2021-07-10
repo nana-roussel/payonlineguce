@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites name="suite du test connexion avec le compte admin" time="37.896" tests="1" failures="0" errors="0">
+   <testsuite name="suite du test connexion avec le compte admin" tests="1" failures="0" errors="0" time="37.896" skipped="0" timestamp="2021-07-11 00:16:19" hostname="tchanko - LAPTOP-HP.ad.guichetunique.cm" id="Test Suites/suite du test connexion avec le compte admin">
+      <properties>
+         <property name="deviceName" value=""/>
+         <property name="devicePlatform" value=""/>
+         <property name="logFolder" value="C:\\Users\\tchanko\\git\\payonlineguce\\Reports\\20210711_001531\\suite du test connexion avec le compte admin\\20210711_001531"/>
+         <property name="logFiles" value="C:\\Users\\tchanko\\git\\payonlineguce\\Reports\\20210711_001531\\suite du test connexion avec le compte admin\\20210711_001531\\execution0.log"/>
+         <property name="attachments" value=""/>
+         <property name="hostName" value="tchanko - LAPTOP-HP.ad.guichetunique.cm"/>
+         <property name="os" value="Windows 10 64bit"/>
+         <property name="katalonVersion" value="8.0.5.208"/>
+         <property name="browser" value="Chrome 91.0.4472.124"/>
+         <property name="hostAddress" value="192.168.43.62"/>
+         <property name="sessionId" value="c4df0713610ea314a99a5922ddbac6fe"/>
+         <property name="seleniumVersion" value="3.141.59"/>
+         <property name="proxyInformation" value="ProxyInformation { proxyOption=NO_PROXY, proxyServerType=HTTP, username=, password=********, proxyServerAddress=, proxyServerPort=0, executionList=&quot;&quot;, isApplyToDesiredCapabilities=true }"/>
+         <property name="platform" value="Windows 10"/>
+      </properties>
+      <testcase name="Test Cases/connexion avec le compte admin" time="34.365" classname="Test Cases/connexion avec le compte admin" status="PASSED">
+         <system-out><![CDATA[2021-07-11 00:16:21 - [TEST_CASE][PASSED] - Test Cases/connexion avec le compte admin: Test Cases/connexion avec le compte admin
+
+2021-07-11 00:16:24 - [TEST_STEP][PASSED] - openBrowser(""): Browser is opened with url: ''
+
+2021-07-11 00:16:26 - [MESSAGE][INFO] - Starting 'Chrome' driver
+
+2021-07-11 00:16:26 - [MESSAGE][INFO] - Action delay is set to 0 milliseconds
+
+2021-07-11 00:16:34 - [MESSAGE][PASSED] - Browser is opened with url: ''
+
+2021-07-11 00:16:34 - [TEST_STEP][PASSED] - navigateToUrl("https://testepayment.guichetunique.cm/PayOnlineGuce/"): Navigate to 'https://testepayment.guichetunique.cm/PayOnlineGuce/' successfully
+
+2021-07-11 00:16:36 - [MESSAGE][PASSED] - Navigate to 'https://testepayment.guichetunique.cm/PayOnlineGuce/' successfully
+
+2021-07-11 00:16:36 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Bienvenue sur PayOnlineGuce/img")): Object: 'Object Repository/Page_Bienvenue sur PayOnlineGuce/img' is clicked on
+
+2021-07-11 00:16:38 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Bienvenue sur PayOnlineGuce/img' is clicked on
+
+2021-07-11 00:16:38 - [TEST_STEP][PASSED] - setText(findTestObject("Object Repository/Page_page de connexion/input_concat(Nom d, , utilisateur)_ConnForm_f30c5b"), "admin"): Text 'admin' is set on object 'Object Repository/Page_page de connexion/input_concat(Nom d, , utilisateur)_ConnForm_f30c5b'
+
+2021-07-11 00:16:40 - [MESSAGE][PASSED] - Text 'admin' is set on object 'Object Repository/Page_page de connexion/input_concat(Nom d, , utilisateur)_ConnForm_f30c5b'
+
+2021-07-11 00:16:40 - [TEST_STEP][PASSED] - setEncryptedText(findTestObject("Object Repository/Page_page de connexion/input_Mot de passe_ConnFormpasswordfield"), "RAIVpflpDOg="): Text ****** has been set on object 'Object Repository/Page_page de connexion/input_Mot de passe_ConnFormpasswordfield'
+
+2021-07-11 00:16:41 - [MESSAGE][PASSED] - Text ****** has been set on object 'Object Repository/Page_page de connexion/input_Mot de passe_ConnFormpasswordfield'
+
+2021-07-11 00:16:41 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_page de connexion/span_Se connecter")): Object: 'Object Repository/Page_page de connexion/span_Se connecter' is clicked on
+
+2021-07-11 00:16:43 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_page de connexion/span_Se connecter' is clicked on
+
+2021-07-11 00:16:43 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Administration/span_Gestion dossier  payer")): Object: 'Object Repository/Page_Administration/span_Gestion dossier  payer' is clicked on
+
+2021-07-11 00:16:44 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Administration/span_Gestion dossier  payer' is clicked on
+
+2021-07-11 00:16:44 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Administration/span_Journal contre ecriture")): Object: 'Object Repository/Page_Administration/span_Journal contre ecriture' is clicked on
+
+2021-07-11 00:16:45 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Administration/span_Journal contre ecriture' is clicked on
+
+2021-07-11 00:16:45 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Administration/a_Grer inscription")): Object: 'Object Repository/Page_Administration/a_Grer inscription' is clicked on
+
+2021-07-11 00:16:47 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Administration/a_Grer inscription' is clicked on
+
+2021-07-11 00:16:47 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Administration/span_Tableau de bord")): Object: 'Object Repository/Page_Administration/span_Tableau de bord' is clicked on
+
+2021-07-11 00:16:48 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Administration/span_Tableau de bord' is clicked on
+
+2021-07-11 00:16:48 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Administration/span_Comptes verrouills")): Object: 'Object Repository/Page_Administration/span_Comptes verrouills' is clicked on
+
+2021-07-11 00:16:50 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Administration/span_Comptes verrouills' is clicked on
+
+2021-07-11 00:16:50 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_Administration/a_xxxx CS URGENCE YAOUNDE 1_deconnexionFormj_idt26")): Object: 'Object Repository/Page_Administration/a_xxxx CS URGENCE YAOUNDE 1_deconnexionFormj_idt26' is clicked on
+
+2021-07-11 00:16:51 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_Administration/a_xxxx CS URGENCE YAOUNDE 1_deconnexionFormj_idt26' is clicked on
+
+2021-07-11 00:16:51 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_page de connexion/span_Rinitialiser")): Object: 'Object Repository/Page_page de connexion/span_Rinitialiser' is clicked on
+
+2021-07-11 00:16:52 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_page de connexion/span_Rinitialiser' is clicked on
+
+2021-07-11 00:16:52 - [TEST_STEP][PASSED] - click(findTestObject("Object Repository/Page_page de connexion/a_Accueil")): Object: 'Object Repository/Page_page de connexion/a_Accueil' is clicked on
+
+2021-07-11 00:16:54 - [MESSAGE][PASSED] - Object: 'Object Repository/Page_page de connexion/a_Accueil' is clicked on
+
+2021-07-11 00:16:54 - [TEST_STEP][PASSED] - closeBrowser(): Browser is closed
+
+2021-07-11 00:16:55 - [MESSAGE][PASSED] - Browser is closed]]></system-out>
+         <system-err><![CDATA[]]></system-err>
+      </testcase>
+      <system-out><![CDATA[2021-07-11 00:16:19 - [TEST_SUITE][PASSED] - suite du test connexion avec le compte admin: Test Cases/connexion avec le compte admin]]></system-out>
+      <system-err><![CDATA[]]></system-err>
+   </testsuite>
+</testsuites>
