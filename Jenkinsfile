@@ -1,3 +1,3 @@
 node {
-   bat 'C:\GitHub\payonlineguce\test.bat'
+   bat'C:\GitHub\payonlineguce\test.bat'
 }
