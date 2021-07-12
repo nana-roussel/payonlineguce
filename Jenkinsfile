@@ -2,8 +2,7 @@ pipeline {
     agent any 
         stage('Test') { 
             steps { 
-			 bash '''
-			 #!/bin/bash
+			 bat
 			 C:/GitHub/payonlineguce/test.bat
             }
         }
